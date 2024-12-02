@@ -1,1 +1,399 @@
 My name is Om
+
+Git Hub Tutorial - UDEMY
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo
+$ git remote add origin https://github.com/TechnoMage21/test_repo.git
+fatal: not a git repository (or any of the parent directories): .git
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo
+$ git init
+Initialized empty Git repository in C:/Users/user/OneDrive/Desktop/Test_Repo/.git/
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote add origin https://github.com/TechnoMage21/test_repo.git
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git --version
+git version 2.47.1.windows.1
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote -v
+origin  https://github.com/TechnoMage21/test_repo.git (fetch)
+origin  https://github.com/TechnoMage21/test_repo.git (push)
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote remove origin
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote -v
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote add myorigin https://github.com/TechnoMage21/test_repo.git
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote -v
+myorigin        https://github.com/TechnoMage21/test_repo.git (fetch)
+myorigin        https://github.com/TechnoMage21/test_repo.git (push)
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Om.txt
+
+nothing added to commit but untracked files present (use "git add" to tr
+ack)
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git add Om.txt
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Om.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git add --all
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git add .
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Om.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Om.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git rm --chached Om.txt
+error: unknown option `chached'
+usage: git rm [-f | --force] [-n] [-r] [--cached] [--ignore-unmatch]
+              [--quiet] [--pathspec-from-file=<file> [--pathspec-file-nu
+l]]
+              [--] [<pathspec>...]
+
+    -n, --[no-]dry-run    dry run
+    -q, --[no-]quiet      do not list removed files
+    --[no-]cached         only remove from the index
+    -f, --[no-]force      override the up-to-date check
+    -r                    allow recursive removal
+    --[no-]ignore-unmatch exit with a zero status even if nothing matche
+d
+    --[no-]sparse         allow updating entries outside of the sparse-c
+heckout cone
+    --[no-]pathspec-from-file <file>
+                          read pathspec from file
+    --[no-]pathspec-file-nul
+                          with --pathspec-from-file, pathspec elements a
+re separated with NUL character
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git rm --cached Om.txt
+rm 'Om.txt'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Om.txt
+
+nothing added to commit but untracked files present (use "git add" to tr
+ack)
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git add --all
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Om.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Om.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitgnore
+        New Text Document.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Om.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore1
+        Suvam.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Om.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore.txt
+        Suvam.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Om.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Om.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        New Text Document.txt
+        Suvam.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Om.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        New Text Document.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git add .gitignore
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Om.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        New Text Document.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Om.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Ram.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Om.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git add .gitignore
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   Om.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git config --global user.name "TechnoMage21"
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git config --global user.email "guptaom782@gmail.com"
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git commit -m "Initail Commit"
+[main (root-commit) 391d6d0] Initail Commit
+ 2 files changed, 3 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Om.txt
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git log
+commit 391d6d06baa4b24c1d07c063d52249f818c63dd9 (HEAD -> main)
+Author: TechnoMage21 <guptaom782@gmail.com>
+Date:   Mon Dec 2 16:14:19 2024 +0530
+
+    Initail Commit
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git log
+commit 391d6d06baa4b24c1d07c063d52249f818c63dd9 (HEAD -> main)
+Author: TechnoMage21 <guptaom782@gmail.com>
+Date:   Mon Dec 2 16:14:19 2024 +0530
+
+    Initail Commit
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote -v
+myorigin        https://github.com/TechnoMage21/test_repo.git (fetch)
+myorigin        https://github.com/TechnoMage21/test_repo.git (push)
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/TechnoMage21/test
+_repo.git'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin master^C
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream myorigin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin  main
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 286 bytes | 143.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/TechnoMage21/test_repo.git
+ * [new branch]      main -> main
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote add origin https://github.com/TechnoMage21/test_repo.git
