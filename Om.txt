@@ -17,6 +17,7 @@ fatal: pathspec 'README.md' did not match any files
 user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
 $ git remote add origin https://github.com/TechnoMage21/test_repo.git
 
+
 user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
 $ git --version
 git version 2.47.1.windows.1
@@ -396,4 +397,662 @@ To https://github.com/TechnoMage21/test_repo.git
  * [new branch]      main -> main
 
 user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
-$ git remote add origin https://github.com/TechnoMage21/test_repo.git
+$ ^C
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ ssh-keygen -t rsa -c "guptaom782@gmail.com"
+Too many arguments.
+usage: ssh-keygen [-q] [-a rounds] [-b bits] [-C comment] [-f output_keyfile]
+                  [-m format] [-N new_passphrase] [-O option]
+                  [-t dsa | ecdsa | ecdsa-sk | ed25519 | ed25519-sk | rsa]
+                  [-w provider] [-Z cipher]
+       ssh-keygen -p [-a rounds] [-f keyfile] [-m format] [-N new_passphrase]
+                   [-P old_passphrase] [-Z cipher]
+       ssh-keygen -i [-f input_keyfile] [-m key_format]
+       ssh-keygen -e [-f input_keyfile] [-m key_format]
+       ssh-keygen -y [-f input_keyfile]
+       ssh-keygen -c [-a rounds] [-C comment] [-f keyfile] [-P passphrase]
+       ssh-keygen -l [-v] [-E fingerprint_hash] [-f input_keyfile]
+       ssh-keygen -B [-f input_keyfile]
+       ssh-keygen -D pkcs11
+       ssh-keygen -F hostname [-lv] [-f known_hosts_file]
+       ssh-keygen -H [-f known_hosts_file]
+       ssh-keygen -K [-a rounds] [-w provider]
+       ssh-keygen -R hostname [-f known_hosts_file]
+       ssh-keygen -r hostname [-g] [-f input_keyfile]
+       ssh-keygen -M generate [-O option] output_file
+       ssh-keygen -M screen [-f input_file] [-O option] output_file
+       ssh-keygen -I certificate_identity -s ca_key [-hU] [-D pkcs11_provider]
+                  [-n principals] [-O option] [-V validity_interval]
+                  [-z serial_number] file ...
+       ssh-keygen -L [-f input_keyfile]
+       ssh-keygen -A [-a rounds] [-f prefix_path]
+       ssh-keygen -k -f krl_file [-u] [-s ca_public] [-z version_number]
+                  file ...
+       ssh-keygen -Q [-l] -f krl_file [file ...]
+       ssh-keygen -Y find-principals -s signature_file -f allowed_signers_file
+       ssh-keygen -Y match-principals -I signer_identity -f allowed_signers_file
+       ssh-keygen -Y check-novalidate -n namespace -s signature_file
+       ssh-keygen -Y sign -f key_file -n namespace file [-O option] ...
+       ssh-keygen -Y verify -f allowed_signers_file -I signer_identity
+                  -n namespace -s signature_file [-r krl_file] [-O option]
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ ssh-keygen -t rsa -C "guptaom782@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/user/.ssh/id_rsa):
+Created directory '/c/Users/user/.ssh'.
+Enter passphrase for "/c/Users/user/.ssh/id_rsa" (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/user/.ssh/id_rsa
+Your public key has been saved in /c/Users/user/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:rzC0Us37dd1CFYYFNYQLwfq/Plqy1QagBPvLdwKAh3w guptaom782@gmail.com
+The key's randomart image is:
++---[RSA 3072]----+
+|       .  ....BB |
+|    . o o  o o. o|
+|     + E .... . .|
+|      oo+.. .. . |
+|      o S+.  ..  |
+|     o ..oo. .o..|
+|    . + .o.+o+ooo|
+|     . o o..B+.. |
+|        . .oooo  |
++----[SHA256]-----+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ cd .ssh
+bash: cd: .ssh: No such file or directory
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ cd .ls
+bash: cd: .ls: No such file or directory
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ ls
+Om.txt  Ram.txt  Suvam.txt
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ cd..
+bash: cd..: command not found
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ cd
+
+user@DESKTOP-IFD1UGT MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ package-lock.json
+ package.json
+
+user@DESKTOP-IFD1UGT MINGW64 ~
+$ cd .ssh
+
+user@DESKTOP-IFD1UGT MINGW64 ~/.ssh
+$ clip < id_rsa.pub
+
+user@DESKTOP-IFD1UGT MINGW64 ~/.ssh
+$ ^C
+
+user@DESKTOP-IFD1UGT MINGW64 ~/.ssh
+$ ^C
+
+user@DESKTOP-IFD1UGT MINGW64 ~/.ssh
+$ ^C
+
+user@DESKTOP-IFD1UGT MINGW64 ~/.ssh
+$ ^C
+
+user@DESKTOP-IFD1UGT MINGW64 ~/.ssh
+$ clip < id_rsa.pub
+
+user@DESKTOP-IFD1UGT MINGW64 ~/.ssh
+$ cd o.git^C
+
+user@DESKTOP-IFD1UGT MINGW64 ~/.ssh
+$ cd /OneDrive/Desktop/Test_Repo
+bash: cd: /OneDrive/Desktop/Test_Repo: No such file or directory
+
+user@DESKTOP-IFD1UGT MINGW64 ~/.ssh
+$ ls
+id_rsa  id_rsa.pub
+
+user@DESKTOP-IFD1UGT MINGW64 ~/.ssh
+$ cd
+
+user@DESKTOP-IFD1UGT MINGW64 ~
+$ cd /OneDrive/Desktop/Test_Repo
+bash: cd: /OneDrive/Desktop/Test_Repo: No such file or directory
+
+user@DESKTOP-IFD1UGT MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ package-lock.json
+ package.json
+
+user@DESKTOP-IFD1UGT MINGW64 ~
+$ cd one ^C
+
+user@DESKTOP-IFD1UGT MINGW64 ~
+$ cd OneDrive
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive
+$ ls
+ Attachments/   Documents/  'Personal Vault.lnk'*   Videos/
+ Desktop/       Music/       Pictures/              desktop.ini
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive
+$ cd Desktop
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop
+$ ls
+'Microsoft Edge.lnk'*   Test_Repo/                'Word 2013.lnk'*
+ OM/                   'Visual Studio Code.lnk'*   desktop.ini
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop
+$ cd Test_Repo
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote -v
+myorigin        https://github.com/TechnoMage21/test_repo.git (fetch)
+myorigin        https://github.com/TechnoMage21/test_repo.git (push)
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote remove myorigin
+Deletion of directory '.git/logs/refs/remotes/myorigin' failed. Should I try again? (y/n) y
+Deletion of directory '.git/logs/refs/remotes/myorigin' failed. Should I try again? (y/n) y
+Deletion of directory '.git/logs/refs/remotes/myorigin' failed. Should I try again? (y/n) y
+Deletion of directory '.git/logs/refs/remotes/myorigin' failed. Should I try again? (y/n) ^X
+Sorry, I did not understand your answer. Please type 'y' or 'n'
+Deletion of directory '.git/logs/refs/remotes/myorigin' failed. Should I try again? (y/n)
+Sorry, I did not understand your answer. Please type 'y' or 'n'
+Deletion of directory '.git/logs/refs/remotes/myorigin' failed. Should I try again? (y/n)
+Sorry, I did not understand your answer. Please type 'y' or 'n'
+Deletion of directory '.git/logs/refs/remotes/myorigin' failed. Should I try again? (y/n)
+Sorry, I did not understand your answer. Please type 'y' or 'n'
+Deletion of directory '.git/logs/refs/remotes/myorigin' failed. Should I try again? (y/n) n
+Deletion of directory '.git/refs/remotes/myorigin' failed. Should I try again? (y/n) n
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote remove myorigin
+error: No such remote: 'myorigin'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote -v
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote add myorigin "git@github.com:TechnoMage21/test_repo.git"
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Ram.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git add --all
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   .gitignore
+        new file:   Ram.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git commit -m "Ram.txt file added"
+[main 36b4d51] Ram.txt file added
+ 2 files changed, 1 deletion(-)
+ create mode 100644 Ram.txt
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin master
+error: src refspec master does not match any
+error: failed to push some refs to 'github.com:TechnoMage21/test_repo.git'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin main
+The authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+To github.com:TechnoMage21/test_repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:TechnoMage21/test_repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream myorigin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin main
+To github.com:TechnoMage21/test_repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:TechnoMage21/test_repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin main
+To github.com:TechnoMage21/test_repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:TechnoMage21/test_repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin master
+error: src refspec master does not match any
+error: failed to push some refs to 'github.com:TechnoMage21/test_repo.git'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin main
+To github.com:TechnoMage21/test_repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:TechnoMage21/test_repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git status
+On branch main
+nothing to commit, working tree clean
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin main
+To github.com:TechnoMage21/test_repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:TechnoMage21/test_repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git branch
+* main
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin main
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote remove myorigin
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote -v
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git branch OmBranch
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git branch
+  OmBranch
+* main
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git checkout OmBranch
+Switched to branch 'OmBranch'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (OmBranch)
+$ git branch
+* OmBranch
+  main
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (OmBranch)
+$ git checkout -b newBranch
+Switched to a new branch 'newBranch'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git branch
+  OmBranch
+  main
+* newBranch
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git checkout main
+Switched to branch 'main'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git branch
+  OmBranch
+* main
+  newBranch
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git checkout newBranch
+Switched to branch 'newBranch'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ echo > newfile1.txt
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git status
+On branch newBranch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        newfile1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git ass newfile1.txt
+git: 'ass' is not a git command. See 'git --help'.
+
+The most similar commands are
+        add
+        askpass
+        lfs
+        stash
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git add newfile1.txt
+warning: in the working copy of 'newfile1.txt', LF will be replaced by CRLF the next time Git touch
+es it
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git add newfile1.txt^C
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git add ^[[200~ newfile1.txt
+fatal: pathspec '?[200~' did not match any files
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git add newfile1.txt
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git status
+On branch newBranch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   newfile1.txt
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git commit -m "new file1.txt added"
+[newBranch d958ce6] new file1.txt added
+ 1 file changed, 1 insertion(+)
+ create mode 100644 newfile1.txt
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git push myorigin newBranch
+fatal: 'myorigin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git remote add origin "https://github.com/TechnoMage21/test_repo.git"
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git push myorigin newBranch
+fatal: 'myorigin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git remote -v
+origin  https://github.com/TechnoMage21/test_repo.git (fetch)
+origin  https://github.com/TechnoMage21/test_repo.git (push)
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git push origin newBranch
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (11/11), 804 bytes | 402.00 KiB/s, done.
+Total 11 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), done.
+remote:
+remote: Create a pull request for 'newBranch' on GitHub by visiting:
+remote:      https://github.com/TechnoMage21/test_repo/pull/new/newBranch
+remote:
+To https://github.com/TechnoMage21/test_repo.git
+ * [new branch]      newBranch -> newBranch
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git checkout myBranch
+error: pathspec 'myBranch' did not match any file(s) known to git
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git brach
+git: 'brach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git branch
+  OmBranch
+  main
+* newBranch
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (newBranch)
+$ git checkout OmBranch
+Switched to branch 'OmBranch'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (OmBranch)
+$ git branch
+* OmBranch
+  main
+  newBranch
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (OmBranch)
+$ git merge newBranch
+Updating 36b4d51..d958ce6
+Fast-forward
+ newfile1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 newfile1.txt
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (OmBranch)
+$ git status
+On branch OmBranch
+nothing to commit, working tree clean
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (OmBranch)
+$ git push origin OmBranch
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'OmBranch' on GitHub by visiting:
+remote:      https://github.com/TechnoMage21/test_repo/pull/new/OmBranch
+remote:
+To https://github.com/TechnoMage21/test_repo.git
+ * [new branch]      OmBranch -> OmBranch
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (OmBranch)
+$ git checkout main
+Switched to branch 'main'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git merge OmBranch
+Updating 36b4d51..d958ce6
+Fast-forward
+ newfile1.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 newfile1.txt
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push origin main
+To https://github.com/TechnoMage21/test_repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/TechnoMage21/test_repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push origin
+fatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push origin main
+To https://github.com/TechnoMage21/test_repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/TechnoMage21/test_repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git remote -v
+origin  https://github.com/TechnoMage21/test_repo.git (fetch)
+origin  https://github.com/TechnoMage21/test_repo.git (push)
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push origin man
+error: src refspec man does not match any
+error: failed to push some refs to 'https://github.com/TechnoMage21/test_repo.git'
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push origin main
+To https://github.com/TechnoMage21/test_repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/TechnoMage21/test_repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push origin main
+To https://github.com/TechnoMage21/test_repo.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/TechnoMage21/test_repo.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$ git push myorigin master^C
+
+user@DESKTOP-IFD1UGT MINGW64 ~/OneDrive/Desktop/Test_Repo (main)
+$
