@@ -1,41 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Git Tutorial</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f4;
-            color: #333;
-            padding: 20px;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        h3 {
-            margin-top: 20px;
-        }
-        pre {
-            background-color: #2c3e50;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Git Tutorial</h1>
-    <p>Welcome to the Git Tutorial! This guide provides a comprehensive overview of Git, its installation process, and how to use Git for version control</p>
+Git Tutorial
+Welcome to the Git Tutorial! This guide provides a comprehensive overview of Git, its installation process, and how to use Git for version control.
     
   
 
